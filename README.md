@@ -24,6 +24,8 @@ clientes:
 
 Você deverá implementar o fluxo de tratamento de dado
 
+_______________________________________________________________________________________________________________________________________________________________________
+
 # O QUE DEVE SER FEITO NO TESTE 3
 
 Você deverá implementar o fluxo de tratamento de dados descrito
@@ -55,6 +57,40 @@ permitidos. Ex. 'São Paulo - abç' -> 'SAO PAULO - ABC'
 
 6. Salvar o arquivo .csv com a nova coluna em UTF-8;
 
+_______________________________________________________________________________________________________________________________________________________________________
+
+# RESOLUÇÃO DO TESTE 3 NOTEBOOK V2
+
+  Para realizar essas tarefas, vou escrever um código em Python que faz uso das bibliotecas Pandas, Unidecode e Chardet 
+  para tratar e ajustar as colunas com acentos e caracteres especiais conforme solicitado.  
+
+  Segue o passo a passo:
+
+1-	Importar as bibliotecas necessárias;
+
+2-	Remover os espaços em branco e converter em letras maiúsculas;
+
+3-	Usar a biblioteca unidecode para tratar as colunas com acentos e caracteres especiais;
+
+4-	Remover os caracteres não numéricos;
+
+5-	Ler, tratar e processar os dados do arquivo CSV em chunks;
+
+6-	Identificar o encoding correto do arquivo de entrada usando a biblioteca 'chardet';
+
+7-	Processar o arquivo de 1000 em 1000 linhas;
+
+8-	Concatenar os chunks e salvar o arquivo .csv com a nova coluna em utf-8-sig com BOM5 - Criar a coluna CITY_ASCII;
+
+9-	Salvar o arquivo CSV limpo “Natal2021_cleaned.csv”, usando o encoding 'utf-8-sig' em vez de 'utf-8'. 
+    Isso adicionará uma marca de ordem de byte (BOM) no início do arquivo, 
+    o que ajudará a manter a compatibilidade com diferentes programas e sistemas operacionais ao abrir o arquivo;
+
+10-	Ler o arquivo CSV e criar um dataframe;
+
+11-	Visualizar o dataframe.
+
+_______________________________________________________________________________________________________________________________________________________________________
 
 # O QUE DEVE SER FEITO NO TESTE 2
 
@@ -73,6 +109,9 @@ Considere que serão integrados os seguintes dados:
 ● Cadastro de clientes
 
 Observe que você deve apenas dissertar sobre a arquitetura, e não codificar.
+
+_______________________________________________________________________________________________________________________________________________________________________
+
 
 # O QUE SERÁ AVALIADO ?
 
