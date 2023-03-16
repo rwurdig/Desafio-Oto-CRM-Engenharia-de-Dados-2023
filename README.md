@@ -24,7 +24,7 @@ clientes:
 
 Você deverá implementar o fluxo de tratamento de dado
 
-# O QUE DEVE SER FEITO NO TESTE 2
+# O QUE DEVE SER FEITO NO TESTE 3
 
 Você deverá implementar o fluxo de tratamento de dados descrito
 abaixo, utilizando o dataset a seguir como base:
@@ -56,7 +56,7 @@ permitidos. Ex. 'São Paulo - abç' -> 'SAO PAULO - ABC'
 6. Salvar o arquivo .csv com a nova coluna em UTF-8;
 
 
-# O QUE DEVE SER FEITO NO TESTE 3
+# O QUE DEVE SER FEITO NO TESTE 2
 
 # Integração e-commerce
 
